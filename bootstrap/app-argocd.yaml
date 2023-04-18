@@ -13,5 +13,6 @@ spec:
       https://github.com/arikraz/gitops-argocd-lab.git
     targetRevision: main
   syncPolicy:
-    prune: false
-    selfHeal: false
+    automated: 
+      prune: false
+      selfHeal: false
